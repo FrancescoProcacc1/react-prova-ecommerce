@@ -1,0 +1,119 @@
+{
+  "products": [
+    {
+      "id": "p001",
+      "name": "iPhone 16 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "price": 1289,
+      "image": "https://via.placeholder.com/600x600?text=iPhone+16+Pro",
+      "description": "Smartphone flagship Apple con chip A18 Pro e display Super Retina XDR.",
+      "specs": {
+        "Display": "6.3\" Super Retina XDR OLED 120Hz",
+        "Chip": "Apple A18 Pro",
+        "Storage": "256 GB",
+        "RAM": "8 GB",
+        "Batteria": "3582 mAh",
+        "OS": "iOS 18"
+      },
+      "stock": 12,
+      "rating": 4.7
+    },
+    {
+      "id": "p002",
+      "name": "Samsung Galaxy S24 Ultra",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "price": 1419,
+      "image": "https://via.placeholder.com/600x600?text=Galaxy+S24+Ultra",
+      "description": "Top di gamma Samsung con S Pen integrata e zoom spaziale 100x.",
+      "specs": {
+        "Display": "6.8\" Dynamic AMOLED 2X 120Hz",
+        "Chip": "Snapdragon 8 Gen 3 for Galaxy",
+        "Storage": "512 GB",
+        "RAM": "12 GB",
+        "Batteria": "5000 mAh",
+        "OS": "Android 14 One UI 6.1"
+      },
+      "stock": 8,
+      "rating": 4.6
+    },
+    {
+      "id": "p003",
+      "name": "MacBook Pro 14 M3 Pro",
+      "brand": "Apple",
+      "category": "laptop",
+      "price": 2399,
+      "image": "https://via.placeholder.com/600x600?text=MacBook+Pro+14",
+      "description": "Portatile professionale Apple con chip M3 Pro e autonomia fino a 18 ore.",
+      "specs": {
+        "Display": "14.2\" Liquid Retina XDR",
+        "Chip": "Apple M3 Pro 11-core CPU",
+        "Storage": "512 GB SSD",
+        "RAM": "18 GB unified",
+        "Batteria": "Fino a 18 ore",
+        "OS": "macOS Sonoma"
+      },
+      "stock": 5,
+      "rating": 4.9
+    },
+    {
+      "id": "p004",
+      "name": "Dell XPS 13 Plus",
+      "brand": "Dell",
+      "category": "laptop",
+      "price": 1499,
+      "image": "https://via.placeholder.com/600x600?text=Dell+XPS+13",
+      "description": "Ultrabook compatto con design minimal e tastiera edge-to-edge.",
+      "specs": {
+        "Display": "13.4\" OLED 3K",
+        "Chip": "Intel Core Ultra 7 155H",
+        "Storage": "1 TB SSD",
+        "RAM": "16 GB LPDDR5x",
+        "Batteria": "Fino a 14 ore",
+        "OS": "Windows 11 Pro"
+      },
+      "stock": 9,
+      "rating": 4.4
+    },
+    {
+      "id": "p005",
+      "name": "Sony WH-1000XM5",
+      "brand": "Sony",
+      "category": "cuffie",
+      "price": 419,
+      "image": "https://via.placeholder.com/600x600?text=Sony+WH-1000XM5",
+      "description": "Cuffie over-ear premium con cancellazione del rumore leader di settore.",
+      "specs": {
+        "Tipo": "Over-ear wireless",
+        "Driver": "30mm",
+        "Autonomia": "Fino a 30 ore",
+        "Ricarica": "USB-C, 3 min = 3 ore",
+        "Peso": "250 g",
+        "Codec": "LDAC, AAC, SBC"
+      },
+      "stock": 20,
+      "rating": 4.8
+    },
+    {
+      "id": "p006",
+      "name": "Apple Watch Series 10",
+      "brand": "Apple",
+      "category": "smartwatch",
+      "price": 499,
+      "image": "https://via.placeholder.com/600x600?text=Apple+Watch+10",
+      "description": "Smartwatch con display AMOLED piu ampio e sensore temperatura acqua.",
+      "specs": {
+        "Display": "46mm AMOLED Always-On",
+        "Chip": "Apple S10 SiP",
+        "Autonomia": "Fino a 18 ore",
+        "Sensori": "Cardio, ECG, SpO2, temperatura",
+        "Resistenza": "50m WR, IP6X",
+        "OS": "watchOS 11"
+      },
+      "stock": 18,
+      "rating": 4.5
+    }
+  ],
+  "orders": []
+}
