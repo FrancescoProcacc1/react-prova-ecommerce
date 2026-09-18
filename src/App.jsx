@@ -1,8 +1,12 @@
+import { Outlet, ScrollRestoration } from 'react-router-dom';
+
 export default function App() {
   return (
-    <div style={{ padding: '2rem', fontFamily: 'system-ui, sans-serif' }}>
-      <h1>Template</h1>
-      <p>Replace this with your application.</p>
+    <div className="min-h-screen flex flex-col">
+      <main className="flex-1">
+        <Outlet />
+      </main>
+      <ScrollRestoration />
     </div>
   );
 }
