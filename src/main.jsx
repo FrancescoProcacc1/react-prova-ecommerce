@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import App from './App.jsx';
 import PlaceholderPage from './pages/PlaceholderPage.jsx';
 import NotFoundPage from './pages/NotFoundPage.jsx';
+import CatalogPage from './pages/CatalogPage.jsx';
 import './index.css';
 
 const queryClient = new QueryClient({
@@ -29,13 +30,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'catalog',
-        element: (
-          <PlaceholderPage
-            route="/catalog"
-            title="Catalogo"
-            description="Lista di tutti i prodotti con filtri e ordinamento. Usa useProducts() per il fetch."
-          />
-        ),
+        element: <CatalogPage />,
       },
       {
         path: 'product/:id',
